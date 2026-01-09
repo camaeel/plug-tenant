@@ -1,0 +1,4 @@
+namespaces:
+- suffix: prod
+- suffix: dev
+- suffix: feature1
