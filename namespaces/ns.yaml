@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: namespaces
 data:
-  values.yaml: |
+  values.yaml:
     namespaces:
     - suffix: prod
     - suffix: dev
