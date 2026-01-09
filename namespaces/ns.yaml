@@ -1,4 +1,11 @@
-namespaces:
-- suffix: prod
-- suffix: dev
-- suffix: feature1
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: namespaces
+  namespace: tenant-monitoring
+data:
+  values.yaml: |
+    namespaces:
+    - suffix: prod
+    - suffix: dev
+    - suffix: feature1
