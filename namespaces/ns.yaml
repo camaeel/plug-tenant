@@ -5,6 +5,7 @@ metadata:
 data:
   values.yaml: |
     namespaces:
-    - suffix: prod
-    - suffix: dev
-    - suffix: feature1
+      namespaces:
+        - suffix: prod
+        - suffix: dev
+        - suffix: feature1
